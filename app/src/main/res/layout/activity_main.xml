@@ -241,6 +241,7 @@
             android:layout_weight="1">
 
             <Button
+                android:id="@+id/btnIncrease"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -254,6 +255,7 @@
             android:gravity="center"
             android:layout_weight="1">
             <Button
+                android:id="@+id/btnOK"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="ok"
@@ -266,6 +268,7 @@
             android:gravity="center"
             android:layout_weight="1">
             <Button
+                android:id="@+id/btnDecrease"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="-"
