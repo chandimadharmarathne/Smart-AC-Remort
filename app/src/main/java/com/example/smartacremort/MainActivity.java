@@ -39,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button addBtn = (Button) findViewById(R.id.btnIncrease);
+        Button negativeBtn = (Button) findViewById(R.id.btnDecrease);
+
         txtAcName = (TextView) findViewById(R.id.txtAcName);
         txtTmprtr = (TextView) findViewById(R.id.txtTmprtr);
         txtHmdty = (TextView) findViewById(R.id.txtHmdty);
